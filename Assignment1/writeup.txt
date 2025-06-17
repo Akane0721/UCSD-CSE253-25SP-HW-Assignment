@@ -1,0 +1,18 @@
+CSE 253 Assignment 1
+
+- Features for task1 and task2:
+1. pitch / duration / velocity: min, max, mean, std, skewness, kurtosis, entropy
+2. adjacent note: up, down, repeat, mean interval
+3. tempo: mean, std, changes
+4. percentage: pitch 25%, 75%
+5. others: note density
+
+- Model Modifications
+1. Task1: LightGBM
+2. Task2: LightGBM
+3. Task3: CNN, add Batch Normalization layer, the 3rd conv block
+
+- Final Hyper Parameters
+1. Task1: n_estimators=2000, lr=0.3
+2. Task2: n_estimators=2000, lr=0.05
+3. Task3: epoch=20, lr=1e-4
